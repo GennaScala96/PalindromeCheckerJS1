@@ -1,0 +1,54 @@
+:root {
+    --background-color: #ee82ee;
+    --div-color1: #6a5acd;
+    --div-color2: #00ffff;
+  }
+  
+  body{
+    background: var(--background-color);
+    text-align: center;
+    padding-top: 130px;
+    font-family: "Playfair Display", serif;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+  
+  .palindrome-word {
+    background: var(--div-color1);
+    width: 45%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    font-weight: bold;
+  }
+
+  #text-input{
+    margin-top: 30px;
+  }
+
+  button{
+    width: 80px;
+    font-weight: bold;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    color: coral;
+  }
+
+  .explanation{
+    margin: 130px 100px 100px;
+    border: 2px solid black;
+    padding: 30px;
+  }
+
+  footer{
+    font-size: 1.2rem;
+    padding: 50px;
+  }
